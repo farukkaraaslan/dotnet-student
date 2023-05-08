@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\faruk\\Desktop\\C#_Eğitim\\BTK_Akademi\\SMS\\Core\\Core.csproj": {}
+    "C:\\Users\\faruk\\Desktop\\EGITIM\\C#_Eğitim\\SMS\\Core\\Core.csproj": {}
   },
   "projects": {
-    "C:\\Users\\faruk\\Desktop\\C#_Eğitim\\BTK_Akademi\\SMS\\Core\\Core.csproj": {
+    "C:\\Users\\faruk\\Desktop\\EGITIM\\C#_Eğitim\\SMS\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\faruk\\Desktop\\C#_Eğitim\\BTK_Akademi\\SMS\\Core\\Core.csproj",
+        "projectUniqueName": "C:\\Users\\faruk\\Desktop\\EGITIM\\C#_Eğitim\\SMS\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "C:\\Users\\faruk\\Desktop\\C#_Eğitim\\BTK_Akademi\\SMS\\Core\\Core.csproj",
+        "projectPath": "C:\\Users\\faruk\\Desktop\\EGITIM\\C#_Eğitim\\SMS\\Core\\Core.csproj",
         "packagesPath": "C:\\Users\\faruk\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\faruk\\Desktop\\C#_Eğitim\\BTK_Akademi\\SMS\\Core\\obj\\",
+        "outputPath": "C:\\Users\\faruk\\Desktop\\EGITIM\\C#_Eğitim\\SMS\\Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\faruk\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,6 +39,16 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "System.Linq.Dynamic.Core": {
+              "target": "Package",
+              "version": "[1.3.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
